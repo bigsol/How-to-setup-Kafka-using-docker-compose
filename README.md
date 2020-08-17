@@ -10,4 +10,4 @@ touch docker-compose.yaml<br>
 docker-compose -f docker-compose.yaml up<br>
 
 If you want to start the service in background mode then you can use the below command<br>
-docker-compose -f docker-compose.yml up -d<br>
+docker-compose -f docker-compose.yaml up -d<br>
