@@ -1,12 +1,12 @@
 # How-to-setup-Kafka-using-docker-compose
 How to setup Kafka using docker compose
 
-Step 1 : Create a yaml file<br>
+<b>Step 1 :</b> Create a yaml file<br>
 touch docker-compose.yaml<br>
 
-Step 2 : Put the below contents in the docker compose file.<br>
+<b>Step 2 :</b> Put the below contents in the docker compose file.<br>
 
-Step 3 : Start the service <br>
+<b>Step 3 :</b> Start the service <br>
 docker-compose -f docker-compose.yml up<br>
 
 If you want to start the service in background mode then you can use the below command<br>
