@@ -1,14 +1,14 @@
 version: "3"
 services:
   zookeeper:
-    image: zookeeper
+    image: wurstmeister/zookeeper
     container_name: zookeeper
     ports:
     - 2181:2181
 
   kafka:
     image: kafka
-    container_name: kafka
+    container_name: wurstmeister/kafka
     ports:
     - 9092:9092
     environment:
