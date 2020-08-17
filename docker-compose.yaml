@@ -7,8 +7,8 @@ services:
     - 2181:2181
 
   kafka:
-    image: kafka
-    container_name: wurstmeister/kafka
+    image: wurstmeister/kafka
+    container_name: kafka
     ports:
     - 9092:9092
     environment:
